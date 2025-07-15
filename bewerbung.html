@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bewerbung – Schwerlast-Transport GmbH</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #1f1f1f; color: white; margin: 0; padding: 2rem; }
+    h1 { color: #FFCC00; }
+    form { max-width: 600px; margin: auto; background: #2c2c2c; padding: 2rem; border-radius: 10px; }
+    label { display: block; margin-top: 1rem; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 0.5rem; margin-top: 0.3rem; background: #333; color: white; border: 1px solid #555; border-radius: 5px; }
+    button { background-color: #FFCC00; color: black; padding: 0.75rem 1.5rem; border: none; border-radius: 5px; margin-top: 1rem; font-weight: bold; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Bewerbungsformular</h1>
+  <p>Bitte fülle dieses Formular vollständig aus. Wir melden uns auf Discord bei dir!</p>
+  <form action="https://formspree.io/f/your-form-id" method="POST">
+    <label for="name">🪪 Dein Name:</label>
+    <input type="text" id="name" name="Name" required>
+
+    <label for="discord">🆔 Discord-Tag:</label>
+    <input type="text" id="discord" name="Discord" placeholder="z. B. Max#1234" required>
+
+    <label for="ingame">🚚 Ingame-Name (TMP):</label>
+    <input type="text" id="ingame" name="Ingame-Name" required>
+
+    <label for="alter">🔞 Alter:</label>
+    <input type="number" id="alter" name="Alter" min="12" required>
+
+    <label for="region">🌍 Herkunft (Land/Bundesland):</label>
+    <input type="text" id="region" name="Region" required>
+
+    <label for="erfahrung">🕹️ ETS2/TMP-Erfahrung:</label>
+    <textarea id="erfahrung" name="Erfahrung" rows="3"></textarea>
+
+    <label for="realistisch">🚛 Interesse an realistischem Fahren und Konvois?</label>
+    <select id="realistisch" name="Realismus">
+      <option value="Ja">Ja</option>
+      <option value="Nein">Nein</option>
+    </select>
+
+    <label for="aktiv">⏰ Aktivität:</label>
+    <input type="text" id="aktiv" name="Aktivität" placeholder="z. B. 2–3x pro Woche">
+
+    <label for="bans">📵 Aktuelle Bans auf TruckersMP?</label>
+    <textarea id="bans" name="TMP-Bans" rows="2"></textarea>
+
+    <label for="sonstiges">💬 Noch etwas zu sagen?</label>
+    <textarea id="sonstiges" name="Sonstiges" rows="3"></textarea>
+
+    <button type="submit">Bewerbung absenden</button>
+  </form>
+</body>
+</html>
