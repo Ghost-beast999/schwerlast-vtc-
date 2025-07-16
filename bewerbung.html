@@ -53,15 +53,18 @@
 <body>
   <div class="container">
     <h2>Bewerbungsformular</h2>
-    <form action="https://formspree.io/f/mjkovjev" method="POST">
-      <label for="name">Dein Name:</label>
-      <input type="text" name="Name" id="name" required>
+   <form action="https://formspree.io/f/mjkovjev" method="POST">
+  <label for="name">Dein Name:</label>
+  <input type="text" name="name" id="name" required>
 
-      <label for="discord">Discord-Name (z. B. Max#1234):</label>
-      <input type="text" name="Discord" id="discord" required>
+  <label for="discord">Discord-Name:</label>
+  <input type="text" name="discord" id="discord" required>
 
-      <label for="age">Alter:</label>
-      <input type="number" name="Alter" id="age" min="14" required>
+  <label for="age">Alter:</label>
+  <input type="number" name="age" id="age" required>
+
+  <button type="submit">Absenden</button>
+</form>
 
       <label for="motivation">Warum möchtest du bei uns fahren?</label>
       <textarea name="Motivation" id="motivation" rows="4" required></textarea>
