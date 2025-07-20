@@ -4,116 +4,105 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Schwerlast-Transport GmbH</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Inter', sans-serif;
-      background-color: #f9f9f9;
-      color: #222;
+      font-family: Arial, sans-serif;
+      background-color: #1f1f1f;
+      color: white;
     }
     header {
-      background-color: #ffffff;
-      border-bottom: 1px solid #ddd;
-      padding: 1rem 2rem;
+      background-color: #CC0000;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #FFCC00;
+    }
+    nav {
+      background-color: #333;
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
+      justify-content: center;
+      gap: 1rem;
+      padding: 0.5rem;
     }
     nav a {
-      margin-left: 2rem;
-      text-decoration: none;
-      color: #222;
-      font-weight: 500;
-    }
-    .hero {
-      padding: 4rem 2rem;
-      text-align: center;
-      background: #fff;
-    }
-    .hero h1 {
-      font-size: 3rem;
-      color: #b30000;
-    }
-    .hero p {
-      font-size: 1.25rem;
-      margin: 1rem 0 2rem;
-    }
-    .button {
-      padding: 1rem 2rem;
-      background-color: #ffd500;
-      color: #222;
-      border: none;
-      border-radius: 5px;
-      font-weight: 600;
+      color: #FFCC00;
       text-decoration: none;
     }
     section {
-      padding: 3rem 2rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-    h2 {
-      color: #b30000;
-      margin-bottom: 1rem;
+      padding: 2rem;
     }
     footer {
       text-align: center;
-      padding: 2rem;
-      font-size: 0.9rem;
+      padding: 1rem;
+      background-color: #111;
       color: #888;
+    }
+    .button {
+      background-color: #FFCC00;
+      color: #000;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+    .discord-embed {
+      width: 100%;
+      max-width: 500px;
+      margin: 1rem auto;
     }
   </style>
 </head>
 <body>
   <header>
-    <div><strong>Schwerlast-Transport GmbH</strong></div>
-    <nav>
-      <a href="#ueber-uns">Über Uns</a>
-      <a href="#anforderungen">Anforderungen</a>
-      <a href="#bewerbung">Bewerbung</a>
-      <a href="#kontakt">Kontakt</a>
-    </nav>
+    <h1>Schwerlast-Transport GmbH</h1>
+    <p>Stark. Schwer. Sicher.</p>
   </header>
 
-  <div class="hero">
-    <h1>Schwerlast-Transport GmbH</h1>
-    <p>Wir bewegen, was andere nicht können.</p>
-    <a href="#bewerbung" class="button">Jetzt bewerben</a>
-  </div>
+  <nav>
+    <a href="#about">Über uns</a>
+    <a href="#rules">Regeln</a>
+    <a href="#join">Mitglied werden</a>
+    <a href="#contact">Kontakt</a>
+    <a href="bewerbung.html">Jetzt bewerben</a>
+  </nav>
 
-  <section id="ueber-uns">
-    <h2>Über Uns</h2>
-    <p>Die Schwerlast-Transport GmbH ist eine virtuelle Spedition in Euro Truck Simulator 2 (ETS2), spezialisiert auf Schwerlasttransporte im TruckersMP Multiplayer. Wir legen Wert auf Teamgeist, realistische Fahrweise und zuverlässige Aufträge.</p>
+  <section id="about">
+    <h2>Über uns</h2>
+    <p>Wir sind die Schwerlast-Transport GmbH – eine VTC, die sich auf professionelle, realistische Fahrweise mit Fokus auf Schwerlasttransporte spezialisiert hat. Mit einer starken Community, regelmäßigen Konvois und einem klaren Stil setzen wir Maßstäbe im Multiplayer.</p>
   </section>
 
-  <section id="anforderungen">
-    <h2>Anforderungen</h2>
+  <section id="rules">
+    <h2>Regeln</h2>
     <ul>
-      <li>Mindestens 16 Jahre alt</li>
-      <li>Besitz von ETS2 und TruckersMP</li>
-      <li>Discord mit Mikrofon</li>
-      <li>Teamfähigkeit & respektvoller Umgang</li>
+      <li>Respektvolles Verhalten gegenüber allen Spielern</li>
+      <li>Realistisches Fahren – kein Rammen, kein Trollverhalten</li>
+      <li>Verwendung des In-Game-Tags [SWT]</li>
+      <li>Teilnahme an mindestens 1 Konvoi oder Event pro Monat</li>
+      <li>Keine aktiven TMP-Bans in den letzten 3 Monaten</li>
     </ul>
   </section>
 
-  <section id="bewerbung">
-    <h2>Jetzt Bewerben</h2>
-    <p>Fülle unser Bewerbungsformular aus, wir melden uns bald bei dir:</p>
-    <a href="https://formspree.io/f/mjkovjev" class="button">Zum Formular</a>
+  <section id="join">
+    <h2>Mitglied werden</h2>
+    <p>Du willst Teil unseres Teams werden? Dann trete unserem Discord bei und bewirb dich direkt dort!</p>
+    <a class="button" href="https://discord.gg/Ggsycbff" target="_blank">Zum Discord</a>
   </section>
 
-  <section id="kontakt">
+  <section id="contact">
     <h2>Kontakt</h2>
-    <p>Bei Fragen erreichst du uns jederzeit über unseren <a href="https://discord.gg/Ggsycbff">Discord-Server</a>.</p>
+    <p>Bei Fragen oder Anfragen erreichst du uns ebenfalls über Discord:</p>
+    <div class="discord-embed">
+      <iframe src="1004592069249073152" width="100%" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    </div>
   </section>
 
   <footer>
-    &copy; 2025 Schwerlast-Transport GmbH · Virtuelle Spedition · Keine echte Firma
+    <p>&copy; 2025 Schwerlast-Transport GmbH – Alle Rechte vorbehalten.</p>
   </footer>
 </body>
 </html>
-
